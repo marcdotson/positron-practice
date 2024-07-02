@@ -1,6 +1,6 @@
 library(tidyverse)
 
-customer_data <- read_csv("customer_data.csv")
+customer_data <- read_csv(here::here("data", "customer_data.csv"))
 
 glimpse(customer_data)
 
