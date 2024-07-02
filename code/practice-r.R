@@ -1,3 +1,4 @@
+# Load packages.
 library(tidyverse)
 
 customer_data <- read_csv(here::here("data", "customer_data.csv"))
